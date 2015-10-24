@@ -1320,6 +1320,14 @@ On_IPurple="\033[10;95m"
 On_ICyan="\033[0;106m"    
 On_IWhite="\033[0;107m"   
 
+# Various variables you might want for your PS1 prompt instead
+Time12h="\T"
+Time12a="\@"
+PathShort="\w"
+PathFull="\W"
+NewLine="\n"
+Jobs="\j"
+
 function shekel () {
 	newline=${1}
 	if [[ "${newline}" == "-n" ]]; then
